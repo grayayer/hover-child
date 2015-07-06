@@ -1,0 +1,98 @@
+/*--------------------------*
+/*  WordPress Styles
+/*--------------------------*/
+.aligncenter { display: block; margin: 0 auto }
+.alignright { float: right; margin: 10px 0 10px 10px }
+.alignleft { float: left; margin: 5px 10px 0px 0 }
+.floatleft { float: left }
+.floatright { float: right }
+.textcenter { text-align: center }
+.textright { text-align: right }
+.textleft { text-align: left }
+.wp-caption { border: 1px solid #ddd; text-align: center; background-color: #f3f3f3; padding-top: 4px; margin: 10px; -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px }
+.wp-caption img { margin: 0; padding: 0; border: 0 none }
+.wp-caption p.wp-caption-text { font-size: 11px; line-height: 17px; padding: 0 4px 5px; margin: 0 }
+.wp-smiley { margin: 0 !important; max-height: 1em }
+blockquote.left { margin-right: 20px; text-align: right; margin-left: 0; width: 33%; float: left }
+blockquote.right { margin-left: 20px; text-align: left; margin-right: 0; width: 33%; float: right }
+.sticky { }
+.gallery-caption { }
+.byBlog Postauthor { }
+.bypostauthor html, body { width: 100%; margin: 0px; padding: 0px; overflow-x: hidden;
+}
+/*--------------------------*
+/*  General Styles
+/*--------------------------*/
+html, body { height: 100%; }
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0;
+	color: #818181;
+	font-size: 16px;
+	line-height: 29px;
+	background: #fff;
+}
+
+h1 {
+	font-size: 26px;
+	line-height: 34px ;
+	}
+
+h2 {
+	font-size: 20px;
+	line-height: 40px;
+	color: $h2;
+}
+
+h3 { 
+	font-size: 16px;
+	line-height: 20px ; }
+
+h4 { 
+	font-size: 14px;
+	line-height: 18px ;
+	color: $brand_blue;
+}
+
+h5 {
+	font-size: 12px;
+	line-height:16px;
+}
+
+.post-block h1, h2, h3, h5 {
+	overflow: hidden; margin: 4px 0 10px 0px;
+	font-weight: 500 !important;
+	text-shadow: 1px 1px 0 #EEEEEE;
+}
+
+.post-block h2 {
+	color: $h2;
+}
+
+.box .text-box h2 {
+	line-height: 28px;
+}
+
+.post-block h4 { overflow: hidden; margin: 0px 0 10px 0px; font-weight: 500 !important; text-shadow: none; color: $brand_blue; }
+.post-block a { color: $brand_blue; }
+img { border-style: none; }
+a { text-decoration: none; color: #919191; }
+
+a:hover { text-decoration: none;
+		-webkit-transition: all .2s linear;
+		-moz-transition: all .2s linear;
+		-ms-transition: all .2s linear;
+		-o-transition: all .2s linear;
+		transition: all .2s linear;
+		}
+
+input, textarea, select { font: 13px "Lato", Arial, Helvetica, sans-serif; vertical-align: middle; color: #333; }
+form, fieldset { margin: 0; padding: 0; border-style: none; }
+q { quotes: none; }
+q:before, q:after { content: ''; }
+b { font-weight: 600; }
+strong { font-weight: bold; }

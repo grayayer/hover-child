@@ -1,0 +1,58 @@
+
+/*--------------------------*
+/*  Posts Sections
+/*--------------------------*/
+/*.posts-section { padding: 0 0 22px; }*/
+.posts-section .blocks-holder { overflow: hidden; padding: 3px 0 0; color: #555; }
+.posts-section .blocks-holder .sixcol { padding-bottom: 20px; }
+.posts-section .image-box { }
+.posts-section .text-box { overflow: hidden; line-height: 20px; }
+.posts-section h3 { font: 15px/20px "lato", Arial, Helvetica, sans-serif; margin: 0 0 12px; padding: 0px; color: #333; }
+.posts-section h3 a { color: #252525; }
+.posts-section .meta-box { display: inline-block; margin: 0 0 10px; font-style: italic; font-size: 11px; line-height: 14px; padding-top: 12px; color: #919191; }
+*+html .posts-section .meta-box { display: inline; }
+.posts-section .meta-box a { color: #333; }
+.posts-section .text-box p { text-shadow: 0 1px 0 #fff; font-weight: 200; }
+.heading-box2 { margin-top: -5px; }
+.heading-box .row { padding: 13px 0 20px; }
+.heading-box #searchform { float: right; margin: 0 13px 0 20px; }
+.heading-box h1 { overflow: hidden; font: 22px/28px "lato", Arial, Helvetica, sans-serif; margin: 6px 0 0 0px; font-weight: 200; text-shadow: 0 2px 0 #FFFFFF; color: #252525; text-align: center; }
+.heading-box h1 span { text-transform: uppercase; color: #4A4C52; }
+.stagr { width: 24% }
+.panel { margin-bottom: 31px; }
+.display-list { list-style: none; float: right; padding: 2px 5px 0 20px; }
+.display-list li { float: left; margin: 0 0 0 10px; }
+.display-list a { height: 11px; background: url(images/sprite.png) no-repeat; text-indent: -9999px; overflow: hidden; display: block; }
+.display-list .list { width: 23px; background-position: -114px -8px; }
+.display-list .list:hover, .display-list .active .list { background-position: -207px -8px; }
+.display-list .grid { width: 20px; background-position: -147px -8px; }
+.display-list .grid:hover, .display-list .active .grid { background-position: -240px -8px; }
+.display-list .list2 { width: 19px; background-position: -177px -8px; }
+.display-list .list2:hover, .display-list .active .list2 { background-position: -270px -8px; }
+.filters { text-align: center; }
+.filter-list { list-style: none; overflow: hidden; font-size: 13px; line-height: 20px; text-shadow: -1px 0 0 #fff; }
+.filter-list li a { color: #656565; padding: 6px 12px; display: block; display: inline; float: left; margin: 0 4px 2px 0; background: #f9f9f9; border: 1px solid #ddd; box-shadow: 2px 2px 1px #f6f6f6; -moz-box-shadow: 2px 2px 1px #f6f6f6; -webkit-box-shadow: 2px 2px 1px #f6f6f6; }
+.filter-list li:first-child { background: none; padding-left: 2px; }
+.filter-list a { color: #333; }
+.filter-list a:hover { text-decoration: none; }
+.filter-list li:hover a { background: $brand_blue; color: #fff; text-shadow: none; }
+.filter-list li .active { background: $brand_blue; color: #fff; text-shadow: none; }
+#main h2 { font: 23px/27px "lato", Arial, Helvetica, sans-serif !important; text-shadow: none; opacity: 0.7; /*margin:0 0 44px;*/ }
+.blocks-section .box { /*max-width: 319px;*/ margin: 0 auto 12px; }
+.blocks-section2 .box { margin: 0 auto }
+.blocks-section3 .box { margin: 0 auto 41px; }
+.blocks-section .box .frame { padding: 13px 11px 5px; }
+.blocks-section2 .box .frame { padding: 12px 6px 16px 14px; background: none; }
+.blocks-section2 .box .holder { background: none; }
+.blocks-section2 .box .image-box { margin: -12px -6px 12px -14px; }
+.blocks-section3 .box .frame { padding: 12px 10px 16px 14px; }
+.box .image-box.alignleft { float: left; width: 49%; margin: -22px 44px -15px -17px; }
+.box .text-box { overflow: hidden; padding: 4px 20px 9px; }
+.box .text-box.full-width { padding: 14px 20px 9px; }
+.item-box { overflow: hidden; margin: 0 0 37px; }
+.item-box { display: block; min-height: 128px; border-bottom: 1px solid #ddd; }
+.article-footer { border-top: 1px dotted #d4d4d4; margin-top: 12px; }
+.article-footer a { display: inline-block; font-style: italic; font-size: 11px; color: #919191; }
+.article-footer a:hover { color: #4a4c52; }
+.halignright { float: right; margin: 8px 0 0; }
+.details { margin: 15px 20px; }

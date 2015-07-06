@@ -25,10 +25,8 @@
 	 ?>
 <?php wp_head(); ?>
 </head>
-<?php
-		$class = get_custom_body_classes();
-	?>
-<body <?php body_class($class); ?>>
+<?php $class = get_custom_body_classes(); ?>
+<body <?php body_class($class); ?> >
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
