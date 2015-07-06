@@ -1,0 +1,107 @@
+#topbar #hovsocial {
+	float: right;
+	padding: 20px 40px 5px 0px;
+/*	font-size: 10px;
+	text-indent: 23px;
+*/	width: 400px;
+	text-align: right;
+	a {
+		margin-left: .75em;
+	}
+}
+
+#hovsocial a {	
+	&:before {
+		font-family: 'socialflaw';
+		color: #848585;
+		font-size: 26px;
+		display: inline-block;
+		-webkit-transition: all .2s linear;
+		-moz-transition: all .2s linear;
+		-ms-transition: all .2s linear;
+		-o-transition: all .2s linear;
+		transition: all .2s linear;
+	}
+	&:hover:before {
+		color: $brand_blue;		
+	}
+}
+
+ul#hovsocial.social_icons_footer {
+	list-style: none;
+	li a {
+		float: left;
+		line-height: 27px;		
+		&:before {
+			color: #E1E1E1; /*the name of this color is zircon*/
+			font-size: 24px;	
+			margin-right: 7px;
+		}
+		&:hover:before {
+			color: $footer_hover;		
+		}		
+	}
+}
+
+#hovsocial a#fb {
+	&:before {
+		content: "\e606";
+	}
+}
+
+#hovsocial a#tw {
+	&:before {
+		content: "\e604";
+	}
+	span#followers {
+		display: none;
+	}
+}
+
+#hovsocial a#inst:before {
+    content: "\e601";
+}
+
+#hovsocial #huff:before {
+    content: "\e60f";
+}
+
+#hovsocial #yt:before {
+    content: "\e605";
+}
+
+#hovsocial #em:before {
+    content: "\e600";
+}
+
+.facebook-icon {
+	background: url("images/fb-dark.png") no-repeat scroll 0 7px transparent;
+padding: 6px 10px;
+-khtml-opacity: .50;
+-moz-opacity: .50;
+-ms-filter: "alpha(opacity=50)";
+filter: alpha(opacity=50);
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+opacity: .50;
+}
+.twitter-icon {
+	background: url("images/tw-dark.png") no-repeat scroll 0 7px transparent;
+padding: 6px 10px;
+-khtml-opacity: .50;
+-moz-opacity: .50;
+-ms-filter: "alpha(opacity=50)";
+filter: alpha(opacity=50);
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+opacity: .50;
+}
+.linkedin-icon {
+	background: url("images/ln-dark.png") no-repeat scroll 0 7px transparent;
+}
+
+.facebook-icon:hover { opacity: 1;
+}
+.twitter-icon:hover { opacity: 1;
+}
+.linkedin-icon:hover { opacity: 1;
+}
+

@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'socialflaw';
+	src:url('fonts/socialflaw.eot?-98yttf');
+	src:url('fonts/socialflaw.eot?#iefix-98yttf') format('embedded-opentype'),
+		url('fonts/socialflaw.ttf?-98yttf') format('truetype'),
+		url('fonts/socialflaw.woff?-98yttf') format('woff'),
+		url('fonts/socialflaw.svg?-98yttf#socialflaw') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'socialflaw';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-huffington-circle-thicker2:before {
+	content: "\e60f";
+}
+.icon-hierarchy_circle:before {
+	content: "\e60b";
+}
+.icon-speech_circle:before {
+	content: "\e60c";
+}
+.icon-cog_circle:before {
+	content: "\e60d";
+}
+.icon-huffington-post-icon:before {
+	content: "\e60a";
+}
+.icon-cog:before {
+	content: "\e60e";
+}
+.icon-play-alt:before {
+	content: "\e608";
+}
+.icon-play:before {
+	content: "\e609";
+}
+.icon-mail:before {
+	content: "\e600";
+}
+.icon-instagram-with-circle:before {
+	content: "\e601";
+}
+.icon-linkedin-with-circle:before {
+	content: "\e602";
+}
+.icon-pinterest-with-circle:before {
+	content: "\e603";
+}
+.icon-twitter-with-circle:before {
+	content: "\e604";
+}
+.icon-youtube-with-circle:before {
+	content: "\e605";
+}
+.icon-facebook-with-circle:before {
+	content: "\e606";
+}
+.icon-facebook:before {
+	content: "\e607";
+}

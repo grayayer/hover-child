@@ -6,5 +6,12 @@ Template:       hover
 
 (optional values you can add: Theme URI, Author URI, Version)
 */
-  
-@import 'base';
+ 
+
+/*colors */
+$brand_blue: #0066cc;
+$h2: #0099CC;
+$footer_hover:#198CFF;
+$footer_header: #A8D4FF;
+
+@import 'fonts', 'icons', 'base';
