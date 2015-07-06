@@ -9,8 +9,8 @@ Template:       hover
 /*colors */
 @font-face {
   font-family: 'socialflaw';
-  src: url("fonts/socialflaw.eot?-98yttf");
-  src: url("fonts/socialflaw.eot?#iefix-98yttf") format("embedded-opentype"), url("fonts/socialflaw.ttf?-98yttf") format("truetype"), url("fonts/socialflaw.woff?-98yttf") format("woff"), url("fonts/socialflaw.svg?-98yttf#socialflaw") format("svg");
+  src: url("fonts/socialflaw.eot?3g9x5v");
+  src: url("fonts/socialflaw.eot?#iefix3g9x5v") format("embedded-opentype"), url("fonts/socialflaw.ttf?3g9x5v") format("truetype"), url("fonts/socialflaw.woff?3g9x5v") format("woff"), url("fonts/socialflaw.svg?3g9x5v#socialflaw") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -27,6 +27,34 @@ Template:       hover
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-email:before {
+  content: "\e604";
+}
+
+.icon-facebook:before {
+  content: "\e605";
+}
+
+.icon-instagram-alt:before {
+  content: "\e606";
+}
+
+.icon-twitter:before {
+  content: "\e607";
+}
+
+.icon-twitter-large:before {
+  content: "\e60a";
+}
+
+.icon-youtube-full:before {
+  content: "\e610";
+}
+
+.icon-youtube-play:before {
+  content: "\e611";
+}
+
 .icon-huffington-circle-thicker2:before {
   content: "\e60f";
 }
@@ -41,10 +69,6 @@ Template:       hover
 
 .icon-cog_circle:before {
   content: "\e60d";
-}
-
-.icon-huffington-post-icon:before {
-  content: "\e60a";
 }
 
 .icon-cog:before {
@@ -73,22 +97,6 @@ Template:       hover
 
 .icon-pinterest-with-circle:before {
   content: "\e603";
-}
-
-.icon-twitter-with-circle:before {
-  content: "\e604";
-}
-
-.icon-youtube-with-circle:before {
-  content: "\e605";
-}
-
-.icon-facebook-with-circle:before {
-  content: "\e606";
-}
-
-.icon-facebook:before {
-  content: "\e607";
 }
 
 #topbar #hovsocial {
@@ -137,18 +145,18 @@ ul#hovsocial.social_icons_footer li a:hover:before {
 }
 
 #hovsocial a#fb:before {
-  content: "\e606";
+  content: "\e605";
 }
 
 #hovsocial a#tw:before {
-  content: "\e604";
+  content: "\e60a";
 }
 #hovsocial a#tw span#followers {
   display: none;
 }
 
 #hovsocial a#inst:before {
-  content: "\e601";
+  content: "\e606";
 }
 
 #hovsocial #huff:before {
@@ -156,11 +164,11 @@ ul#hovsocial.social_icons_footer li a:hover:before {
 }
 
 #hovsocial #yt:before {
-  content: "\e605";
+  content: "\e611";
 }
 
 #hovsocial #em:before {
-  content: "\e600";
+  content: "\e604";
 }
 
 .facebook-icon {
@@ -199,6 +207,39 @@ ul#hovsocial.social_icons_footer li a:hover:before {
 
 .linkedin-icon:hover {
   opacity: 1;
+}
+
+div.row div.articles-block div.fourcol a h2:before {
+  font-family: 'socialflaw';
+  color: #4A4C52;
+  font-size: 31px;
+  display: inline-block;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  margin: 9px 15px 0 0;
+}
+div.row div.articles-block div.fourcol a h2:hover {
+  color: #0066cc;
+}
+div.row div.articles-block div.fourcol a h2:hover:before {
+  color: #0066cc;
+}
+div.row div.articles-block div.fourcol a h2.design, div.row div.articles-block div.fourcol a h2.customize, div.row div.articles-block div.fourcol a h2.compatibility {
+  background: transparent !important;
+  margin: 0 0em 1em 0;
+  padding: 0;
+}
+div.row div.articles-block div.fourcol a h2.design:before {
+  content: "\e60b";
+}
+div.row div.articles-block div.fourcol a h2.customize:before {
+  content: "\e60c";
+}
+div.row div.articles-block div.fourcol a h2.compatibility:before {
+  content: "\e60d";
 }
 
 /*--------------------------*

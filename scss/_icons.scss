@@ -45,13 +45,13 @@ ul#hovsocial.social_icons_footer {
 
 #hovsocial a#fb {
 	&:before {
-		content: "\e606";
+		content: "\e605";
 	}
 }
 
 #hovsocial a#tw {
 	&:before {
-		content: "\e604";
+		content: "\e60a";
 	}
 	span#followers {
 		display: none;
@@ -59,7 +59,7 @@ ul#hovsocial.social_icons_footer {
 }
 
 #hovsocial a#inst:before {
-    content: "\e601";
+    content: "\e606";
 }
 
 #hovsocial #huff:before {
@@ -67,11 +67,11 @@ ul#hovsocial.social_icons_footer {
 }
 
 #hovsocial #yt:before {
-    content: "\e605";
+    content: "\e611";
 }
 
 #hovsocial #em:before {
-    content: "\e600";
+    content: "\e604";
 }
 
 .facebook-icon {
@@ -104,4 +104,40 @@ opacity: .50;
 }
 .linkedin-icon:hover { opacity: 1;
 }
+
+div.row div.articles-block div.fourcol a h2 {
+	&:before {
+		font-family: 'socialflaw';
+		color: #4A4C52;
+		font-size: 31px;
+		display: inline-block;
+		-webkit-transition: all .2s linear;
+		-moz-transition: all .2s linear;
+		-ms-transition: all .2s linear;
+		-o-transition: all .2s linear;
+		transition: all .2s linear;
+		margin: 9px 15px 0 0;
+	}
+	&:hover {
+		color: $brand_blue;
+		&:before {
+			color: $brand_blue;
+		}
+	}	
+	&.design, &.customize, &.compatibility {
+		background: transparent !important;
+		margin: 0 0em 1em 0;
+		padding: 0;
+	}
+	&.design:before {
+		content: "\e60b";
+	}
+	&.customize:before {
+		content: "\e60c";
+	}		
+	&.compatibility:before {
+		content: "\e60d";
+	}
+}
+
 
