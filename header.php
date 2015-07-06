@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width" />
 <title>The Flawless Foundation</title>
 <link rel="shortcut icon" href="./wp-admin/images/favicon.ico" />
-
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400italic,400,300italic,300,700,700italic' rel='stylesheet' type='text/css'>
 
 <?php	
 	//global $page, $paged;

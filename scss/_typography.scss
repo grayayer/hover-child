@@ -32,8 +32,8 @@ body, h1, h2, h3, h4, h5, h6 {
 body {
 	margin: 0;
 	color: #818181;
-	font-size: 16px;
-	line-height: 29px;
+	font-size: 14px;
+	line-height: 28px;
 	background: #fff;
 }
 
@@ -43,24 +43,32 @@ h1 {
 	}
 
 h2 {
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 40px;
 	color: $h2;
 }
 
 h3 { 
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 20px ; }
 
 h4 { 
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 18px ;
 	color: $brand_blue;
 }
 
 h5 {
-	font-size: 12px;
+	font-size: 16px;
 	line-height:16px;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+}
+
+#footer p {
+	font-family: lato;
 }
 
 .post-block h1, h2, h3, h5 {
