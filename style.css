@@ -361,6 +361,13 @@ ul#hovsocial.social_icons_footer li a:before {
 ul#hovsocial.social_icons_footer li a:hover:before {
   color: #198cff;
 }
+ul#hovsocial.social_icons_footer.shift {
+  padding: 1em 2em;
+}
+ul#hovsocial.social_icons_footer.shift li a {
+  text-align: center;
+  font-size: 30px;
+}
 
 #hovsocial a#fb:before {
   content: "\e605";

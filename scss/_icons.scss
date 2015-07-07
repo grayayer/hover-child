@@ -41,6 +41,13 @@ ul#hovsocial.social_icons_footer {
 			color: $footer_hover;		
 		}		
 	}
+	&.shift {
+		padding: 1em 2em;
+		li a {
+			text-align: center;
+			font-size: 30px;				
+		}
+	}
 }
 
 #hovsocial a#fb {
