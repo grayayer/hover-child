@@ -1350,12 +1350,12 @@ li.selected a {
 }
 
 .preloader {
-  background: url(i/loader1.gif) center center no-repeat white;
+  background: url("images/loader1.gif") center center no-repeat white;
   display: inline-block;
 }
 
 #dvLoading {
-  background: url("i/loader1.gif") no-repeat scroll 50% 50% #4a4c52;
+  background: url("images/loader1.gif") no-repeat scroll 50% 50% #4a4c52;
   height: 100px;
   width: 300px;
   position: fixed;
