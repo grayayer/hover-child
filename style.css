@@ -3788,9 +3788,12 @@ blockquote {
   padding-bottom: 20px;
 }
 
+.single-post .box .text-box h2 {
+  padding-bottom: .75em;
+}
 .single-post p {
   margin: 0 0 21px;
-  font-weight: 200;
+  font-weight: regular;
 }
 
 .post-block .meta-box p {
