@@ -4541,3 +4541,7 @@ blockquote {
 .details {
   margin: 15px 20px;
 }
+
+#shiftnav-toggle-main .shiftnav-main-toggle-content {
+  padding: 16px 10px;
+}
