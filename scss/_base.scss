@@ -366,7 +366,9 @@ border-radius: 6px 6px 6px 6px;
 .users-section h3 { font: 15px/22px "Lato", Arial, Helvetica, sans-serif; margin: 0; padding: 20px 0 0 0; }
 .users-section h3 a { color: #333; }
 .users-section .box { background: #fff; margin: 0 0 31px; font-weight: 200; }
-.users-section .box .holder { background: url(images/bg-box6.gif) no-repeat 100% 100%; width: 100%; }
+.users-section .box .holder {
+	/*background: url(images/bg-box6.gif) no-repeat 100% 100%;*/
+	width: 100%; }
 .users-section .box img { display: block; width: 100%; }
 .users-section .text-box { padding: 20px 7px 21px 11px; }
 .users-section .text-box .hold { overflow: hidden; }
@@ -404,7 +406,7 @@ border-radius: 6px 6px 6px 6px;
 
 .post-block .box {
 	padding: 0;
-	background: #fff url(images/bg-box6.gif) no-repeat 0 100%;
+	background: #fff no-repeat 0 100%;
 	line-height: inherit;
 	overflow: visible;
 	margin: 0;

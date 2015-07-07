@@ -2065,7 +2065,7 @@ li.selected a {
 }
 
 .users-section .box .holder {
-  background: url(images/bg-box6.gif) no-repeat 100% 100%;
+  /*background: url(images/bg-box6.gif) no-repeat 100% 100%;*/
   width: 100%;
 }
 
@@ -2212,7 +2212,7 @@ li.selected a {
 
 .post-block .box {
   padding: 0;
-  background: white url(images/bg-box6.gif) no-repeat 0 100%;
+  background: #fff no-repeat 0 100%;
   line-height: inherit;
   overflow: visible;
   margin: 0;
