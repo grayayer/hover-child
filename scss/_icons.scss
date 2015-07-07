@@ -43,9 +43,9 @@ ul#hovsocial.social_icons_footer {
 	}
 	&.shift {
 		padding: 1em 2em;
-		li a {
+		li a:before {
 			text-align: center;
-			font-size: 30px;				
+			font-size: 28px;			
 		}
 	}
 }
