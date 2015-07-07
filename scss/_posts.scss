@@ -120,6 +120,13 @@
 
 .sitemap ul li { border-bottom: 1px solid #ddd; padding: 5px 0; }
 .sitemap ul li:last-child { border-bottom: none; padding-bottom: 20px; }
-.single-post p { margin: 0 0 21px; font-weight: 200; }
+.single-post {
+	h3 {
+		padding-bottom: .75em;
+	}
+	p { 
+		margin: 0 0 21px;
+		font-weight: regular;
+	}
 .post-block .meta-box p { margin: 0; }
 .post-block .meta-box2 p { margin: 0; }
